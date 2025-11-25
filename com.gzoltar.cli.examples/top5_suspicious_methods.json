@@ -1,0 +1,14 @@
+{
+  "org-gzoltar": {
+    "detected_method": []
+  },
+  "sfl-txt": {
+    "detected_method": [
+      "CharacterCounter()",
+      "processString(java.lang.String)",
+      "getNumLetters()",
+      "getNumDigits()",
+      "getNumOtherCharacters()"
+    ]
+  }
+}

@@ -180,7 +180,7 @@ TESTS_FILE="$BUILD_DIR/sfl/txt/tests.csv"
 java -cp $BUILD_DIR:$JUNIT_JAR:$HAMCREST_JAR:$GZOLTAR_CLI_JAR \
   com.gzoltar.cli.Main faultLocalizationReport \
     --buildLocation "$BUILD_DIR" \
-    --granularity "line" \
+    --granularity "method" \
     --inclPublicMethods \
     --inclStaticConstructors \
     --inclDeprecatedMethods \
